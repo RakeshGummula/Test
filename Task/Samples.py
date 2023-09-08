@@ -32,3 +32,11 @@
 # for m in [9,7,4]:
 #     pass
 
+# While Loop Examples
+
+# i = 0
+# while i < 8:
+#     print(i)
+#     i+=1
+# else:
+#     print("i is no longer than 8")
