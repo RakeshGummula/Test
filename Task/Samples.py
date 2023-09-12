@@ -1,4 +1,4 @@
-#           *if elif else Example*
+#           *if elif else Example with user input*
 
 # price = int(input("Enter Price:"))
 # if price > 100:
@@ -8,7 +8,7 @@
 # else :    
 #     print("price is less than 100")
 
-#           *for loop Example*
+#           *for loop Example with user input*
 
 # me = str(input("Enter a string: "))
 # for char in me:
