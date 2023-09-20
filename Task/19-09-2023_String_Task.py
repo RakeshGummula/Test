@@ -83,10 +83,44 @@
 
 
 #           *8.Write a python program to Remove Repeated Character from String.*
-removerepeat=input("Enter a String to remove duplicates :")
-repeatremove=""
-for char in removerepeat:
-    if char not in repeatremove:
-        repeatremove+=char
-print(repeatremove)
 
+# removerepeat=input("Enter a String to remove duplicates :")
+# repeatremove=""
+# for char in removerepeat:
+#     if char not in repeatremove:
+#         repeatremove+=char
+# print(repeatremove)
+
+
+#           *9.Write a python program to count occurrence of given character in string.*
+
+
+# String=input("Enter a String :")
+# character=input("Enter character to count occurence present in string: ")
+# String=String.casefold()
+# character=character.casefold()
+# count=0
+# for i in String:
+#     if i ==character:
+#         count+=1
+# print("Count of Character present in String:",count)
+
+#              or
+
+# String=input("Enter a String :")
+# character=input("Enter character to count occurence present in string: ")
+# String=String.casefold()
+# character=character.casefold()
+# print("Count of Character present in a Given String:",String.count(character))
+
+
+#           *10.Write a python program to check string is anagrams or not in Python.*
+
+# String1=input("Provide a First String : ")
+# String2= input("Provide a Second String : ")
+# String1=String1.casefold()
+# String2=String2.casefold()
+# if sorted(String1) ==sorted(String2):
+#     print("The two strings are anagrams of each other.")
+# else:
+#     print("Two Strings are not anagrams of each other.")
