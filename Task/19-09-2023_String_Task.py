@@ -70,3 +70,23 @@
 # Blankremove=input("Enter a String Include spaces :")
 # Removeblank=Blankremove.replace(" ",'')
 # print(Removeblank)
+
+
+#           *7.Write a python program to find sum of integers in the string.*
+# Sumofintegers=input("Enter A string with include  Numbers :")
+# sums=0
+# for i in Sumofintegers:
+#     if (i.isnumeric()):
+#         sums+=int(i)
+
+# print("Sum of integers in given String is :",sums)
+
+
+#           *8.Write a python program to Remove Repeated Character from String.*
+removerepeat=input("Enter a String to remove duplicates :")
+repeatremove=""
+for char in removerepeat:
+    if char not in repeatremove:
+        repeatremove+=char
+print(repeatremove)
+
