@@ -88,3 +88,10 @@
 
                 #2#
 
+# numbers=input("Enter a elements of numbers : ").split()
+# numbers1=[int(item) for item in numbers]
+# element=int(input("enter elements to delete : "))
+# numbers1.remove(element)
+# print(numbers1)
+
+#                       *
