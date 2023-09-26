@@ -76,4 +76,15 @@
 
 # print("Modified List : ",elementslists)
 
-#                       *5.write a python program to delete given elemet from the list *
+#                       *5.write a python program to delete given element from the list *
+                #1#
+# numbers=eval(input("Enter a numbers of list : "))
+# element=int(input('Enter a element to delete : '))
+# if element in numbers:
+#     numbers.remove(element)
+#     print("Updated List is : ",numbers)
+# else:
+#     print("Element not in list")
+
+                #2#
+
