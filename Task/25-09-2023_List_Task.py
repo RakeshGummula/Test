@@ -134,3 +134,7 @@
 #     print('The sizes of 2 lists are not same ')
 
                 #2#
+list1=[]
+list2=[]
+
+print("enter elements for 1 list")
