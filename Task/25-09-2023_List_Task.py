@@ -134,7 +134,106 @@
 #     print('The sizes of 2 lists are not same ')
 
                 #2#
-list1=[]
-list2=[]
+# list1=[]
+# list2=[]
+# print("enter elements for 1 list. enter 'exit' if done: ")
+# while True:
+#     element=input("Enter an element : ")
+#     if element == "exit":
+#         break
+#     else:
+#         list1.append(element)
+# print("enter elements for 2 list. enter 'exit' if done : ")
+# while True:
+#     element1=input("enter an element : ")
+#     if element1 == "exit":
+#         break
+#     else:
+#         list2.append(element1)
+# size1=0
+# for item in list1:
+#     size1+=1
+# size2=0
+# for item in list2:
+#     size2+=1
+# if size1 == size2:
+#     print("Sizes of both lists are same. ")
+# else:
+#     print("Sizes of both lists are not same. ")
 
-print("enter elements for 1 list")
+#               *8.Write a Python function that takes two lists and returns True if they have at least one common member.*
+                #1#
+# list1=eval(input("enter a list1 : "))
+# list2=eval(input("enter a list2 : "))
+# common=0
+# for elements in list1:
+#     if elements in list2:
+#         common=1
+# if common==1:
+#     print("True")
+# else:
+#     print('False')
+
+                #2#
+# list1=input("enter a 1 list : ").split()
+# list2=input("enter a 2 list : ").split()
+# list1=[eval(r) for r in list1]
+# list2=[eval(a) for a in list2]
+# common=False
+# for item1 in list1:
+#     for item2 in list2:
+#         if item1 == item2:
+#             common=True
+#             break
+# if common:
+#     print("List have one common elements : ")
+# else:
+#     print("List doesn't have common elements : ")       
+
+''' 9.Write a Python program to remove a specified column from a given nested list.
+Original Nested list:
+[[1, 2, 3], [2, 4, 5], [1, 1, 1]]
+After removing 1st column:
+[[2, 3], [4, 5], [1, 1]] '''
+
+                #1#
+# list1=eval(input("enter a nested list :"))
+# for row in list1:
+#         del row[0]
+# print("After removing 1st column :", list1)
+
+                #2#
+# nestedlist=eval(input("Enter a nested list : "))
+# column=int(input("enter column to delete from 0 to n :"))
+# result=[]
+# for row in nestedlist:
+#     row1=row[:]
+#     row1.pop(column)
+#     result.append(row1)
+# print("original nested List : ",nestedlist)
+# print('After removing 1 column :',result)
+
+'''10. Write a Python program to convert a list of multiple integers into a single integer.
+Sample list: [11, 33, 50]
+Expected Output: 113350'''
+
+                #1#
+# Samplelist=eval(input("enter a list : "))
+# newlist=[str(me) for me in Samplelist]
+# print("".join(newlist))
+
+                #2#
+# list1=eval(input('enter a list : '))
+# for i in list1:
+#     print(i,end="")
+
+#               *11.Write a Python program to remove duplicates from a list.*
+                #1#
+# new_list=eval(input("enter a list : "))
+# new_list1=[new_list [i] for i in range(len(new_list)) if new_list.index(new_list[i])==i]
+# print(new_list1)
+
+                #2#
+# my_list=eval(input("enter a list : "))
+# my_list1=list(dict.fromkeys(my_list))
+# print(my_list1)
