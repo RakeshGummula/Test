@@ -79,7 +79,7 @@
 #                       *5.write a python program to delete given element from the list *
                 #1#
 # numbers=eval(input("Enter a numbers of list : "))
-# element=int(input('Enter a element to delete : '))
+# element=eval(input('Enter a element to delete : '))
 # if element in numbers:
 #     numbers.remove(element)
 #     print("Updated List is : ",numbers)
@@ -94,4 +94,43 @@
 # numbers1.remove(element)
 # print(numbers1)
 
-#                       *
+#                       *6.write a python program to insert an element  at given index location.*
+
+                #1#
+# element=eval(input('Enter a elements of List : '))
+# element.insert(eval(input('Enter index number to add : ')),eval(input('enter a element to add : ')))
+# print("List after modified :",element)
+
+                #2#
+# new_list=[]
+# n = int(input("Enter the number of elements in the list: "))
+# for i in range(n):
+#     element = input(f"Enter element {i+1}: ")
+#     new_list.append(element)
+# print(f"The original list is: {new_list}")
+# index = int(input("Enter the index to insert an element: "))
+# element = input("Enter the element you want to insert: ")
+# new_list.insert(index, element)
+# print(f"The updated list is: {new_list}")
+
+
+#                       *7.write a python program to check the sizes of given two lists are same.*
+                #1#
+# number=int(input("Enter a number of elements in 1 list : "))
+# list1=[]
+# for i in range(number):
+#     element=input(f"Enter a element {i+1} for the 1 list : ")
+#     list1.append(element)
+
+# number1=int(input("enter number of elements of 2 list : "))
+# list2=[]
+# for i in range(number1):
+#     element1=input(f"Enter elements {i+1} for 2 list : ")
+#     list2.append(element1)
+
+# if len(list1) == len(list2):
+#     print("the sizes of 2 list are same.")
+# else:
+#     print('The sizes of 2 lists are not same ')
+
+                #2#
