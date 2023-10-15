@@ -63,5 +63,19 @@ Expected output: {'m': 1, 'a': 1, 'o': 3, 'l': 2, 'i': 1, 'x': 1, 't': 1, 'e': 1
 d1 = {'a': 100, 'b': 200, 'c':300}
 d2 = {'a': 300, 'b': 200, 'd':400}
 Sample output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})'''
-dictionary1=eval(input("enter Dict1 key values : "))
-dictionary2=eval(input('enter Dict2 key values : '))
+# dictionary1=eval(input("enter Dict1 key values : "))
+# dictionary2=eval(input('enter Dict2 key values : '))
+# dictionary = {k: dictionary1.get(k, 0) + dictionary2.get(k, 0) for k in dictionary1.keys() | dictionary2.keys()}
+# print(dictionary)
+
+'''8.Write a Python program to access dictionary key's element by index.
+Expected Output:
+physics
+math
+chemistry'''
+# subject=eval(input("enter a subject and marks to access : "))
+# print(list(subject)[0])
+# print(list(subject)[1])
+# print(list(subject)[2])
+
+#       *9.Write a Python program to remove a key from a dictionary.*
