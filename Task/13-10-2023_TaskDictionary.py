@@ -79,3 +79,29 @@ chemistry'''
 # print(list(subject)[2])
 
 #       *9.Write a Python program to remove a key from a dictionary.*
+# mydictionary=eval(input("enter an key values pairs : "))
+# keyremove=input('enter key to remove from dictionary : ')
+# removedvalue=mydictionary.pop(keyremove,None)
+# if removedvalue is not None:
+#     print(f"the key'{keyremove}' with value '{removedvalue}' has been removed from dictionary.")
+# else :
+#     print(f"the key '{keyremove}' doesn't exist in dictionary.")
+# print("Updated dictionary : ",mydictionary)
+
+#       *10.Write a Python script to merge two Python dictionaries.*
+# dictionary1={}
+# dictionary2={}
+# number1=int(input("enter number of key value pairs for first dictionary "))
+# number2=int(input("enter number of key value pairs for second dictionary "))
+# print('enter key value pairs for first dictionary : ')
+# for i in range(number1):
+#     key=input("enter a key : ")
+#     value=input('enter a value : ')
+#     dictionary1[key]=value
+# print("enter a key value pair for second dictionary : ")
+# for i in range(number2):
+#     key=input('enter a key : ')
+#     value=input("enter a value : ")
+#     dictionary2[key]=value
+# dictionary1.update(dictionary2)
+# print("the merged dictionary is : ",dictionary1)
