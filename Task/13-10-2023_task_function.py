@@ -69,12 +69,12 @@ Expected Output : 20'''
 # print("sum of all : ",total)
 
 '''6.write a function to find sum of given values, pass values has variable number of arguments to function.'''
-def addition(*args):
-    total=0
-    for arg in args:
-        total+=arg
-    return total
-values=input("enter values comma seperated : ")
-values=[int(x) for x in values.split(",")]
-completed=addition(*values)
-print('sum of arguments :',completed)
+# def addition(*args):
+#     total=0
+#     for arg in args:
+#         total+=arg
+#     return total
+# values=input("enter values comma seperated : ")
+# values=[int(x) for x in values.split(",")]
+# completed=addition(*values)
+# print('sum of arguments :',completed)
