@@ -42,12 +42,24 @@
 #     function2()
 # function1()
         #2#
-def outerfunction(text):
-    text=text
-    def innerfunction(text):
-        print(text)
-    innerfunction()
-# outerfunction()
+# def outerfunction(text):
+#     text=text
+#     def innerfunction(text):
+#         print(text)
+#     innerfunction()
+
 # filter()
+        #1#
+# sequence=eval(input("enter a list numbers : "))
+# result=filter(lambda x : x%2!=0,sequence)
+# print(list(result))
+# result=filter(lambda x : x %2==0,sequence)
+# print(list(result))
+        #2#
+# def multiples(number):
+#     return number % 3==0
+# numbers=eval(input("enter a number of list : "))
+# result=list(filter(lambda x: multiples(x),numbers))
+# print(result)
 
 # recursive
